@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <p>
+        {{ data }}
+    </p>
+    <p>
+        {{   data.name}}
+    </p>
+    <p>
+        {{   data.lists.1 }}
+    </p>
+    <p>
+        {{   data.login_name.upper }}
+    </p>
+    <ul>
+        {% for i in data.project %}
+        <li style="color: red">  {{ i }}  </li>
+        {% endfor %}
+    </ul>
+
+</body>
+</html>

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+    {% for article in articles %}
+        <p>{{ article.title }}是{{ article.author }}
+            在{{ article.time }}时写的</p>
+    {% endfor %}
+    <p>{{ art.description |safe }} </p>
+    <p>{{ art.content |safe}} </p>
+</body>
+</html>
