@@ -1,0 +1,3 @@
+# DjangoProject
+Django项目练手
+项目利用django的admin存储管理数据，上传数据使用了ckeditor...
